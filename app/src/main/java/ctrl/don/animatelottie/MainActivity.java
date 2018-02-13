@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.rv_main);
         lottieAnimationView = (LottieAnimationView) findViewById(R.id.animation_view);
 
-        lottieAnimationView.setAnimation("checked_done.json");
+        lottieAnimationView.setAnimation("checked_done_.json");
         lottieAnimationView.loop(true);
         lottieAnimationView.playAnimation();
 
